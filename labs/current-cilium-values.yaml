@@ -1,0 +1,15 @@
+USER-SUPPLIED VALUES:
+encryption:
+  enabled: true
+  type: wireguard
+hubble:
+  enabled: true
+  relay:
+    enabled: true
+  ui:
+    enabled: false
+image:
+  pullPolicy: IfNotPresent
+ipam:
+  mode: kubernetes
+kubeProxyReplacement: true

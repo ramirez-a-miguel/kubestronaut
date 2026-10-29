@@ -1,0 +1,371 @@
+               _      
+ ___ _ __   __| |_  __
+/ __| '_ \ / _` \ \/ /
+\__ \ |_) | (_| |>  < 
+|___/ .__/ \__,_/_/\_\
+    |_|               
+
+ 📂 SPDX Document SPDXRef-DOCUMENT
+  │ 
+  │ 📦 DESCRIBES 1 Packages
+  │ 
+  ├ registry.k8s.io/kube-controller-manager:v1.37.0
+  │  │ 🔗 174 Relationships
+  │  ├ CONTAINS PACKAGE sigs.k8s.io/json@v0.0.0-20250730193827-2d320260d730
+  │  ├ CONTAINS PACKAGE k8s.io/apimachinery
+  │  ├ CONTAINS PACKAGE sigs.k8s.io/json@v0.0.0-20250730193827-2d320260d730
+  │  ├ CONTAINS PACKAGE usr/local/bin/kube-log-runner
+  │  │  │ 🔗 1 Relationships
+  │  │  └ DEPENDS_ON PACKAGE k8s.io/component-base
+  │  │  │  │ 🔗 6 Relationships
+  │  │  │  ├ DEPENDS_ON PACKAGE k8s.io/apimachinery
+  │  │  │  ├ DEPENDS_ON PACKAGE gopkg.in/inf.v0@v0.9.1
+  │  │  │  ├ DEPENDS_ON PACKAGE github.com/fxamacker/cbor/v2@v2.9.1
+  │  │  │  ├ DEPENDS_ON PACKAGE stdlib@v1.26.6
+  │  │  │  ├ DEPENDS_ON PACKAGE sigs.k8s.io/json@v0.0.0-20250730193827-2d320260d730
+  │  │  │  └ DEPENDS_ON PACKAGE github.com/x448/float16@v0.8.4
+  │  │  │ 
+  │  │ 
+  │  ├ CONTAINS PACKAGE gopkg.in/inf.v0@v0.9.1
+  │  ├ CONTAINS PACKAGE stdlib@v1.26.6
+  │  ├ CONTAINS PACKAGE github.com/x448/float16@v0.8.4
+  │  ├ CONTAINS PACKAGE k8s.io/component-base
+  │  ├ CONTAINS PACKAGE debian@12.14
+  │  │  │ 🔗 4 Relationships
+  │  │  ├ DEPENDS_ON PACKAGE base-files@12.4+deb12u14
+  │  │  ├ DEPENDS_ON PACKAGE media-types@10.0.0
+  │  │  ├ DEPENDS_ON PACKAGE netbase@6.4
+  │  │  └ DEPENDS_ON PACKAGE tzdata@2026b-0+deb12u1
+  │  │ 
+  │  ├ CONTAINS PACKAGE gopkg.in/inf.v0@v0.9.1
+  │  ├ CONTAINS PACKAGE k8s.io/apimachinery
+  │  ├ CONTAINS PACKAGE github.com/fxamacker/cbor/v2@v2.9.1
+  │  ├ CONTAINS PACKAGE gopkg.in/inf.v0@v0.9.1
+  │  ├ CONTAINS PACKAGE go-runner
+  │  │  │ 🔗 1 Relationships
+  │  │  └ DEPENDS_ON PACKAGE k8s.io/component-base
+  │  │  │  │ 🔗 6 Relationships
+  │  │  │  ├ DEPENDS_ON PACKAGE sigs.k8s.io/json@v0.0.0-20250730193827-2d320260d730
+  │  │  │  ├ DEPENDS_ON PACKAGE gopkg.in/inf.v0@v0.9.1
+  │  │  │  ├ DEPENDS_ON PACKAGE github.com/x448/float16@v0.8.4
+  │  │  │  ├ DEPENDS_ON PACKAGE stdlib@v1.26.6
+  │  │  │  ├ DEPENDS_ON PACKAGE k8s.io/apimachinery
+  │  │  │  └ DEPENDS_ON PACKAGE github.com/fxamacker/cbor/v2@v2.9.1
+  │  │  │ 
+  │  │ 
+  │  ├ CONTAINS PACKAGE k8s.io/component-base
+  │  ├ CONTAINS PACKAGE stdlib@v1.26.6
+  │  ├ CONTAINS PACKAGE github.com/fxamacker/cbor/v2@v2.9.1
+  │  ├ CONTAINS PACKAGE k8s.io/apimachinery
+  │  ├ CONTAINS PACKAGE stdlib@v1.26.6
+  │  ├ CONTAINS PACKAGE github.com/fxamacker/cbor/v2@v2.9.1
+  │  ├ CONTAINS PACKAGE sigs.k8s.io/json@v0.0.0-20250730193827-2d320260d730
+  │  ├ CONTAINS PACKAGE github.com/x448/float16@v0.8.4
+  │  ├ CONTAINS PACKAGE usr/local/bin/kube-controller-manager
+  │  │  │ 🔗 1 Relationships
+  │  │  └ DEPENDS_ON PACKAGE k8s.io/kubernetes@v1.37.0
+  │  │  │  │ 🔗 147 Relationships
+  │  │  │  ├ DEPENDS_ON PACKAGE sigs.k8s.io/json@v0.0.0-20250730193827-2d320260d730
+  │  │  │  ├ DEPENDS_ON PACKAGE stdlib@v1.26.6
+  │  │  │  ├ DEPENDS_ON PACKAGE k8s.io/component-base
+  │  │  │  ├ DEPENDS_ON PACKAGE k8s.io/apimachinery
+  │  │  │  ├ DEPENDS_ON PACKAGE github.com/fxamacker/cbor/v2@v2.9.1
+  │  │  │  ├ DEPENDS_ON PACKAGE gopkg.in/inf.v0@v0.9.1
+  │  │  │  ├ DEPENDS_ON PACKAGE github.com/x448/float16@v0.8.4
+  │  │  │  ├ DEPENDS_ON PACKAGE cel.dev/expr@v0.25.1
+  │  │  │  ├ DEPENDS_ON PACKAGE github.com/antlr4-go/antlr/v4@v4.13.1
+  │  │  │  ├ DEPENDS_ON PACKAGE github.com/beorn7/perks@v1.0.1
+  │  │  │  ├ DEPENDS_ON PACKAGE github.com/blang/semver/v4@v4.0.0
+  │  │  │  ├ DEPENDS_ON PACKAGE github.com/cenkalti/backoff/v5@v5.0.3
+  │  │  │  ├ DEPENDS_ON PACKAGE github.com/cespare/xxhash/v2@v2.3.0
+  │  │  │  ├ DEPENDS_ON PACKAGE github.com/container-storage-interface/spec@v1.12.1-0.20260720052920-cd9e7ad1ae0
+  │  │  │  ├ DEPENDS_ON PACKAGE github.com/containerd/containerd/api@v1.11.1
+  │  │  │  ├ DEPENDS_ON PACKAGE github.com/containerd/log@v0.1.0
+  │  │  │  ├ DEPENDS_ON PACKAGE github.com/containerd/ttrpc@v1.2.9
+  │  │  │  ├ DEPENDS_ON PACKAGE github.com/coreos/go-oidc@v2.5.0+incompatible
+  │  │  │  ├ DEPENDS_ON PACKAGE github.com/coreos/go-semver@v0.3.1
+  │  │  │  ├ DEPENDS_ON PACKAGE github.com/coreos/go-systemd/v22@v22.7.0
+  │  │  │  ├ DEPENDS_ON PACKAGE github.com/cyphar/filepath-securejoin@v0.7.0
+  │  │  │  ├ DEPENDS_ON PACKAGE github.com/davecgh/go-spew@v1.1.2-0.20180830191138-d8f796af33cc
+  │  │  │  ├ DEPENDS_ON PACKAGE github.com/distribution/reference@v0.6.0
+  │  │  │  ├ DEPENDS_ON PACKAGE github.com/docker/go-units@v0.5.0
+  │  │  │  ├ DEPENDS_ON PACKAGE github.com/emicklei/go-restful/v3@v3.13.0
+  │  │  │  ├ DEPENDS_ON PACKAGE github.com/felixge/httpsnoop@v1.0.4
+  │  │  │  ├ DEPENDS_ON PACKAGE github.com/fsnotify/fsnotify@v1.9.0
+  │  │  │  ├ DEPENDS_ON PACKAGE github.com/go-logr/logr@v1.4.3
+  │  │  │  ├ DEPENDS_ON PACKAGE github.com/go-logr/stdr@v1.2.2
+  │  │  │  ├ DEPENDS_ON PACKAGE github.com/go-logr/zapr@v1.3.0
+  │  │  │  ├ DEPENDS_ON PACKAGE github.com/go-openapi/jsonpointer@v1.0.0
+  │  │  │  ├ DEPENDS_ON PACKAGE github.com/go-openapi/jsonreference@v1.0.0
+  │  │  │  ├ DEPENDS_ON PACKAGE github.com/go-openapi/swag/cmdutils@v0.27.1
+  │  │  │  ├ DEPENDS_ON PACKAGE github.com/go-openapi/swag/conv@v0.27.1
+  │  │  │  ├ DEPENDS_ON PACKAGE github.com/go-openapi/swag/fileutils@v0.27.1
+  │  │  │  ├ DEPENDS_ON PACKAGE github.com/go-openapi/swag/jsonutils@v0.27.1
+  │  │  │  ├ DEPENDS_ON PACKAGE github.com/go-openapi/swag/loading@v0.27.1
+  │  │  │  ├ DEPENDS_ON PACKAGE github.com/go-openapi/swag/mangling@v0.27.1
+  │  │  │  ├ DEPENDS_ON PACKAGE github.com/go-openapi/swag/netutils@v0.27.1
+  │  │  │  ├ DEPENDS_ON PACKAGE github.com/go-openapi/swag/pools@v0.27.1
+  │  │  │  ├ DEPENDS_ON PACKAGE github.com/go-openapi/swag/stringutils@v0.27.1
+  │  │  │  ├ DEPENDS_ON PACKAGE github.com/go-openapi/swag/typeutils@v0.27.1
+  │  │  │  ├ DEPENDS_ON PACKAGE github.com/go-openapi/swag/yamlutils@v0.27.1
+  │  │  │  ├ DEPENDS_ON PACKAGE github.com/go-openapi/swag@v0.27.1
+  │  │  │  ├ DEPENDS_ON PACKAGE github.com/godbus/dbus/v5@v5.2.2
+  │  │  │  ├ DEPENDS_ON PACKAGE github.com/golang/protobuf@v1.5.4
+  │  │  │  ├ DEPENDS_ON PACKAGE github.com/google/cadvisor/lib@v0.60.5
+  │  │  │  ├ DEPENDS_ON PACKAGE github.com/google/cel-go@v0.29.2
+  │  │  │  ├ DEPENDS_ON PACKAGE github.com/google/gnostic-models@v0.7.0
+  │  │  │  ├ DEPENDS_ON PACKAGE github.com/google/go-cmp@v0.7.0
+  │  │  │  ├ DEPENDS_ON PACKAGE github.com/google/uuid@v1.6.0
+  │  │  │  ├ DEPENDS_ON PACKAGE github.com/gorilla/websocket@v1.5.4-0.20250319132907-e064f32e3674
+  │  │  │  ├ DEPENDS_ON PACKAGE github.com/grpc-ecosystem/go-grpc-middleware/providers/prometheus@v1.1.0
+  │  │  │  ├ DEPENDS_ON PACKAGE github.com/grpc-ecosystem/go-grpc-middleware/v2@v2.3.3
+  │  │  │  ├ DEPENDS_ON PACKAGE github.com/grpc-ecosystem/grpc-gateway/v2@v2.29.0
+  │  │  │  ├ DEPENDS_ON PACKAGE github.com/json-iterator/go@v1.1.12
+  │  │  │  ├ DEPENDS_ON PACKAGE github.com/kylelemons/godebug@v1.1.0
+  │  │  │  ├ DEPENDS_ON PACKAGE github.com/moby/spdystream@v0.5.1
+  │  │  │  ├ DEPENDS_ON PACKAGE github.com/moby/sys/mountinfo@v0.7.2
+  │  │  │  ├ DEPENDS_ON PACKAGE github.com/moby/sys/userns@v0.1.0
+  │  │  │  ├ DEPENDS_ON PACKAGE github.com/moby/term@v0.5.2
+  │  │  │  ├ DEPENDS_ON PACKAGE github.com/modern-go/concurrent@v0.0.0-20180306012644-bacd9c7ef1dd
+  │  │  │  ├ DEPENDS_ON PACKAGE github.com/modern-go/reflect2@v1.0.3-0.20250322232337-35a7c28c31ee
+  │  │  │  ├ DEPENDS_ON PACKAGE github.com/munnerz/goautoneg@v0.0.0-20191010083416-a7dc8b61c822
+  │  │  │  ├ DEPENDS_ON PACKAGE github.com/mxk/go-flowrate@v0.0.0-20140419014527-cca7078d478f
+  │  │  │  ├ DEPENDS_ON PACKAGE github.com/NYTimes/gziphandler@v1.1.1
+  │  │  │  ├ DEPENDS_ON PACKAGE github.com/opencontainers/cgroups@v0.0.7
+  │  │  │  ├ DEPENDS_ON PACKAGE github.com/opencontainers/go-digest@v1.0.0
+  │  │  │  ├ DEPENDS_ON PACKAGE github.com/opencontainers/image-spec@v1.1.1
+  │  │  │  ├ DEPENDS_ON PACKAGE github.com/opencontainers/runtime-spec@v1.3.0
+  │  │  │  ├ DEPENDS_ON PACKAGE github.com/opencontainers/selinux@v1.15.1
+  │  │  │  ├ DEPENDS_ON PACKAGE github.com/pmezard/go-difflib@v1.0.1-0.20181226105442-5d4384ee4fb2
+  │  │  │  ├ DEPENDS_ON PACKAGE github.com/pquerna/cachecontrol@v0.1.0
+  │  │  │  ├ DEPENDS_ON PACKAGE github.com/prometheus/client_golang@v1.24.0
+  │  │  │  ├ DEPENDS_ON PACKAGE github.com/prometheus/client_model@v0.6.2
+  │  │  │  ├ DEPENDS_ON PACKAGE github.com/prometheus/common@v0.70.0
+  │  │  │  ├ DEPENDS_ON PACKAGE github.com/prometheus/procfs@v0.21.1
+  │  │  │  ├ DEPENDS_ON PACKAGE github.com/robfig/cron/v3@v3.0.1
+  │  │  │  ├ DEPENDS_ON PACKAGE github.com/sirupsen/logrus@v1.9.4
+  │  │  │  ├ DEPENDS_ON PACKAGE github.com/spf13/cobra@v1.10.2
+  │  │  │  ├ DEPENDS_ON PACKAGE github.com/spf13/pflag@v1.0.10
+  │  │  │  ├ DEPENDS_ON PACKAGE go.etcd.io/etcd/api/v3@v3.7.0
+  │  │  │  ├ DEPENDS_ON PACKAGE go.etcd.io/etcd/client/pkg/v3@v3.7.0
+  │  │  │  ├ DEPENDS_ON PACKAGE go.etcd.io/etcd/client/v3@v3.7.0
+  │  │  │  ├ DEPENDS_ON PACKAGE go.opentelemetry.io/auto/sdk@v1.2.1
+  │  │  │  ├ DEPENDS_ON PACKAGE go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc@v0.6
+  │  │  │  ├ DEPENDS_ON PACKAGE go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp@v0.69.0
+  │  │  │  ├ DEPENDS_ON PACKAGE go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc@v1.44.0
+  │  │  │  ├ DEPENDS_ON PACKAGE go.opentelemetry.io/otel/exporters/otlp/otlptrace@v1.44.0
+  │  │  │  ├ DEPENDS_ON PACKAGE go.opentelemetry.io/otel/metric@v1.44.0
+  │  │  │  ├ DEPENDS_ON PACKAGE go.opentelemetry.io/otel/sdk@v1.44.0
+  │  │  │  ├ DEPENDS_ON PACKAGE go.opentelemetry.io/otel/trace@v1.44.0
+  │  │  │  ├ DEPENDS_ON PACKAGE go.opentelemetry.io/otel@v1.44.0
+  │  │  │  ├ DEPENDS_ON PACKAGE go.opentelemetry.io/proto/otlp@v1.10.0
+  │  │  │  ├ DEPENDS_ON PACKAGE go.uber.org/multierr@v1.11.0
+  │  │  │  ├ DEPENDS_ON PACKAGE go.uber.org/zap@v1.27.1
+  │  │  │  ├ DEPENDS_ON PACKAGE go.yaml.in/yaml/v2@v2.4.4
+  │  │  │  ├ DEPENDS_ON PACKAGE go.yaml.in/yaml/v3@v3.0.4
+  │  │  │  ├ DEPENDS_ON PACKAGE golang.org/x/crypto@v0.54.0
+  │  │  │  ├ DEPENDS_ON PACKAGE golang.org/x/exp@v0.0.0-20260410095643-746e56fc9e2f
+  │  │  │  ├ DEPENDS_ON PACKAGE golang.org/x/net@v0.57.0
+  │  │  │  ├ DEPENDS_ON PACKAGE golang.org/x/oauth2@v0.36.0
+  │  │  │  ├ DEPENDS_ON PACKAGE golang.org/x/sync@v0.22.0
+  │  │  │  ├ DEPENDS_ON PACKAGE golang.org/x/sys@v0.47.0
+  │  │  │  ├ DEPENDS_ON PACKAGE golang.org/x/term@v0.45.0
+  │  │  │  ├ DEPENDS_ON PACKAGE golang.org/x/text@v0.40.0
+  │  │  │  ├ DEPENDS_ON PACKAGE golang.org/x/time@v0.15.0
+  │  │  │  ├ DEPENDS_ON PACKAGE golang.org/x/tools@v0.47.0
+  │  │  │  ├ DEPENDS_ON PACKAGE google.golang.org/genproto/googleapis/api@v0.0.0-20260526163538-3dc84a4a5aaa
+  │  │  │  ├ DEPENDS_ON PACKAGE google.golang.org/genproto/googleapis/rpc@v0.0.0-20260526163538-3dc84a4a5aaa
+  │  │  │  ├ DEPENDS_ON PACKAGE google.golang.org/grpc@v1.82.1
+  │  │  │  ├ DEPENDS_ON PACKAGE google.golang.org/protobuf@v1.36.12-0.20260120151049-f2248ac996af
+  │  │  │  ├ DEPENDS_ON PACKAGE gopkg.in/evanphx/json-patch.v4@v4.13.0
+  │  │  │  ├ DEPENDS_ON PACKAGE gopkg.in/go-jose/go-jose.v2@v2.6.3
+  │  │  │  ├ DEPENDS_ON PACKAGE gopkg.in/natefinch/lumberjack.v2@v2.2.1
+  │  │  │  ├ DEPENDS_ON PACKAGE k8s.io/api
+  │  │  │  ├ DEPENDS_ON PACKAGE k8s.io/apiextensions-apiserver
+  │  │  │  ├ DEPENDS_ON PACKAGE k8s.io/apiserver
+  │  │  │  ├ DEPENDS_ON PACKAGE k8s.io/client-go
+  │  │  │  ├ DEPENDS_ON PACKAGE k8s.io/cloud-provider
+  │  │  │  ├ DEPENDS_ON PACKAGE k8s.io/cluster-bootstrap
+  │  │  │  ├ DEPENDS_ON PACKAGE k8s.io/component-helpers
+  │  │  │  ├ DEPENDS_ON PACKAGE k8s.io/controller-manager
+  │  │  │  ├ DEPENDS_ON PACKAGE k8s.io/cri-api
+  │  │  │  ├ DEPENDS_ON PACKAGE k8s.io/cri-client
+  │  │  │  ├ DEPENDS_ON PACKAGE k8s.io/csi-translation-lib
+  │  │  │  ├ DEPENDS_ON PACKAGE k8s.io/dynamic-resource-allocation
+  │  │  │  ├ DEPENDS_ON PACKAGE k8s.io/endpointslice
+  │  │  │  ├ DEPENDS_ON PACKAGE k8s.io/externaljwt
+  │  │  │  ├ DEPENDS_ON PACKAGE k8s.io/klog/v2@v2.140.0
+  │  │  │  ├ DEPENDS_ON PACKAGE k8s.io/kms
+  │  │  │  ├ DEPENDS_ON PACKAGE k8s.io/kube-aggregator
+  │  │  │  ├ DEPENDS_ON PACKAGE k8s.io/kube-controller-manager
+  │  │  │  ├ DEPENDS_ON PACKAGE k8s.io/kube-openapi@v0.0.0-20260721132016-d427ff9ee9ad
+  │  │  │  ├ DEPENDS_ON PACKAGE k8s.io/kube-proxy
+  │  │  │  ├ DEPENDS_ON PACKAGE k8s.io/kube-scheduler
+  │  │  │  ├ DEPENDS_ON PACKAGE k8s.io/kubectl
+  │  │  │  ├ DEPENDS_ON PACKAGE k8s.io/kubelet
+  │  │  │  ├ DEPENDS_ON PACKAGE k8s.io/metrics
+  │  │  │  ├ DEPENDS_ON PACKAGE k8s.io/mount-utils
+  │  │  │  ├ DEPENDS_ON PACKAGE k8s.io/pod-security-admission
+  │  │  │  ├ DEPENDS_ON PACKAGE k8s.io/streaming
+  │  │  │  ├ DEPENDS_ON PACKAGE k8s.io/utils@v0.0.0-20260626114624-be93311217bd
+  │  │  │  ├ DEPENDS_ON PACKAGE sigs.k8s.io/apiserver-network-proxy/konnectivity-client@v0.36.0
+  │  │  │  ├ DEPENDS_ON PACKAGE sigs.k8s.io/randfill@v1.0.0
+  │  │  │  ├ DEPENDS_ON PACKAGE sigs.k8s.io/structured-merge-diff/v6@v6.4.2
+  │  │  │  └ DEPENDS_ON PACKAGE sigs.k8s.io/yaml@v1.6.0
+  │  │  │ 
+  │  │ 
+  │  ├ CONTAINS PACKAGE github.com/x448/float16@v0.8.4
+  │  ├ CONTAINS PACKAGE k8s.io/component-base
+  │  ├ CONTAINS PACKAGE base-files@12.4+deb12u14
+  │  ├ CONTAINS PACKAGE media-types@10.0.0
+  │  ├ CONTAINS PACKAGE netbase@6.4
+  │  ├ CONTAINS PACKAGE tzdata@2026b-0+deb12u1
+  │  ├ CONTAINS PACKAGE cel.dev/expr@v0.25.1
+  │  ├ CONTAINS PACKAGE github.com/antlr4-go/antlr/v4@v4.13.1
+  │  ├ CONTAINS PACKAGE github.com/beorn7/perks@v1.0.1
+  │  ├ CONTAINS PACKAGE github.com/blang/semver/v4@v4.0.0
+  │  ├ CONTAINS PACKAGE github.com/cenkalti/backoff/v5@v5.0.3
+  │  ├ CONTAINS PACKAGE github.com/cespare/xxhash/v2@v2.3.0
+  │  ├ CONTAINS PACKAGE github.com/container-storage-interface/spec@v1.12.1-0.20260720052920-cd9e7ad1ae09
+  │  ├ CONTAINS PACKAGE github.com/containerd/containerd/api@v1.11.1
+  │  ├ CONTAINS PACKAGE github.com/containerd/log@v0.1.0
+  │  ├ CONTAINS PACKAGE github.com/containerd/ttrpc@v1.2.9
+  │  ├ CONTAINS PACKAGE github.com/coreos/go-oidc@v2.5.0+incompatible
+  │  ├ CONTAINS PACKAGE github.com/coreos/go-semver@v0.3.1
+  │  ├ CONTAINS PACKAGE github.com/coreos/go-systemd/v22@v22.7.0
+  │  ├ CONTAINS PACKAGE github.com/cyphar/filepath-securejoin@v0.7.0
+  │  ├ CONTAINS PACKAGE github.com/davecgh/go-spew@v1.1.2-0.20180830191138-d8f796af33cc
+  │  ├ CONTAINS PACKAGE github.com/distribution/reference@v0.6.0
+  │  ├ CONTAINS PACKAGE github.com/docker/go-units@v0.5.0
+  │  ├ CONTAINS PACKAGE github.com/emicklei/go-restful/v3@v3.13.0
+  │  ├ CONTAINS PACKAGE github.com/felixge/httpsnoop@v1.0.4
+  │  ├ CONTAINS PACKAGE github.com/fsnotify/fsnotify@v1.9.0
+  │  ├ CONTAINS PACKAGE github.com/go-logr/logr@v1.4.3
+  │  ├ CONTAINS PACKAGE github.com/go-logr/stdr@v1.2.2
+  │  ├ CONTAINS PACKAGE github.com/go-logr/zapr@v1.3.0
+  │  ├ CONTAINS PACKAGE github.com/go-openapi/jsonpointer@v1.0.0
+  │  ├ CONTAINS PACKAGE github.com/go-openapi/jsonreference@v1.0.0
+  │  ├ CONTAINS PACKAGE github.com/go-openapi/swag/cmdutils@v0.27.1
+  │  ├ CONTAINS PACKAGE github.com/go-openapi/swag/conv@v0.27.1
+  │  ├ CONTAINS PACKAGE github.com/go-openapi/swag/fileutils@v0.27.1
+  │  ├ CONTAINS PACKAGE github.com/go-openapi/swag/jsonutils@v0.27.1
+  │  ├ CONTAINS PACKAGE github.com/go-openapi/swag/loading@v0.27.1
+  │  ├ CONTAINS PACKAGE github.com/go-openapi/swag/mangling@v0.27.1
+  │  ├ CONTAINS PACKAGE github.com/go-openapi/swag/netutils@v0.27.1
+  │  ├ CONTAINS PACKAGE github.com/go-openapi/swag/pools@v0.27.1
+  │  ├ CONTAINS PACKAGE github.com/go-openapi/swag/stringutils@v0.27.1
+  │  ├ CONTAINS PACKAGE github.com/go-openapi/swag/typeutils@v0.27.1
+  │  ├ CONTAINS PACKAGE github.com/go-openapi/swag/yamlutils@v0.27.1
+  │  ├ CONTAINS PACKAGE github.com/go-openapi/swag@v0.27.1
+  │  ├ CONTAINS PACKAGE github.com/godbus/dbus/v5@v5.2.2
+  │  ├ CONTAINS PACKAGE github.com/golang/protobuf@v1.5.4
+  │  ├ CONTAINS PACKAGE github.com/google/cadvisor/lib@v0.60.5
+  │  ├ CONTAINS PACKAGE github.com/google/cel-go@v0.29.2
+  │  ├ CONTAINS PACKAGE github.com/google/gnostic-models@v0.7.0
+  │  ├ CONTAINS PACKAGE github.com/google/go-cmp@v0.7.0
+  │  ├ CONTAINS PACKAGE github.com/google/uuid@v1.6.0
+  │  ├ CONTAINS PACKAGE github.com/gorilla/websocket@v1.5.4-0.20250319132907-e064f32e3674
+  │  ├ CONTAINS PACKAGE github.com/grpc-ecosystem/go-grpc-middleware/providers/prometheus@v1.1.0
+  │  ├ CONTAINS PACKAGE github.com/grpc-ecosystem/go-grpc-middleware/v2@v2.3.3
+  │  ├ CONTAINS PACKAGE github.com/grpc-ecosystem/grpc-gateway/v2@v2.29.0
+  │  ├ CONTAINS PACKAGE github.com/json-iterator/go@v1.1.12
+  │  ├ CONTAINS PACKAGE github.com/kylelemons/godebug@v1.1.0
+  │  ├ CONTAINS PACKAGE github.com/moby/spdystream@v0.5.1
+  │  ├ CONTAINS PACKAGE github.com/moby/sys/mountinfo@v0.7.2
+  │  ├ CONTAINS PACKAGE github.com/moby/sys/userns@v0.1.0
+  │  ├ CONTAINS PACKAGE github.com/moby/term@v0.5.2
+  │  ├ CONTAINS PACKAGE github.com/modern-go/concurrent@v0.0.0-20180306012644-bacd9c7ef1dd
+  │  ├ CONTAINS PACKAGE github.com/modern-go/reflect2@v1.0.3-0.20250322232337-35a7c28c31ee
+  │  ├ CONTAINS PACKAGE github.com/munnerz/goautoneg@v0.0.0-20191010083416-a7dc8b61c822
+  │  ├ CONTAINS PACKAGE github.com/mxk/go-flowrate@v0.0.0-20140419014527-cca7078d478f
+  │  ├ CONTAINS PACKAGE github.com/NYTimes/gziphandler@v1.1.1
+  │  ├ CONTAINS PACKAGE github.com/opencontainers/cgroups@v0.0.7
+  │  ├ CONTAINS PACKAGE github.com/opencontainers/go-digest@v1.0.0
+  │  ├ CONTAINS PACKAGE github.com/opencontainers/image-spec@v1.1.1
+  │  ├ CONTAINS PACKAGE github.com/opencontainers/runtime-spec@v1.3.0
+  │  ├ CONTAINS PACKAGE github.com/opencontainers/selinux@v1.15.1
+  │  ├ CONTAINS PACKAGE github.com/pmezard/go-difflib@v1.0.1-0.20181226105442-5d4384ee4fb2
+  │  ├ CONTAINS PACKAGE github.com/pquerna/cachecontrol@v0.1.0
+  │  ├ CONTAINS PACKAGE github.com/prometheus/client_golang@v1.24.0
+  │  ├ CONTAINS PACKAGE github.com/prometheus/client_model@v0.6.2
+  │  ├ CONTAINS PACKAGE github.com/prometheus/common@v0.70.0
+  │  ├ CONTAINS PACKAGE github.com/prometheus/procfs@v0.21.1
+  │  ├ CONTAINS PACKAGE github.com/robfig/cron/v3@v3.0.1
+  │  ├ CONTAINS PACKAGE github.com/sirupsen/logrus@v1.9.4
+  │  ├ CONTAINS PACKAGE github.com/spf13/cobra@v1.10.2
+  │  ├ CONTAINS PACKAGE github.com/spf13/pflag@v1.0.10
+  │  ├ CONTAINS PACKAGE go.etcd.io/etcd/api/v3@v3.7.0
+  │  ├ CONTAINS PACKAGE go.etcd.io/etcd/client/pkg/v3@v3.7.0
+  │  ├ CONTAINS PACKAGE go.etcd.io/etcd/client/v3@v3.7.0
+  │  ├ CONTAINS PACKAGE go.opentelemetry.io/auto/sdk@v1.2.1
+  │  ├ CONTAINS PACKAGE go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc@v0.68.0
+  │  ├ CONTAINS PACKAGE go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp@v0.69.0
+  │  ├ CONTAINS PACKAGE go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc@v1.44.0
+  │  ├ CONTAINS PACKAGE go.opentelemetry.io/otel/exporters/otlp/otlptrace@v1.44.0
+  │  ├ CONTAINS PACKAGE go.opentelemetry.io/otel/metric@v1.44.0
+  │  ├ CONTAINS PACKAGE go.opentelemetry.io/otel/sdk@v1.44.0
+  │  ├ CONTAINS PACKAGE go.opentelemetry.io/otel/trace@v1.44.0
+  │  ├ CONTAINS PACKAGE go.opentelemetry.io/otel@v1.44.0
+  │  ├ CONTAINS PACKAGE go.opentelemetry.io/proto/otlp@v1.10.0
+  │  ├ CONTAINS PACKAGE go.uber.org/multierr@v1.11.0
+  │  ├ CONTAINS PACKAGE go.uber.org/zap@v1.27.1
+  │  ├ CONTAINS PACKAGE go.yaml.in/yaml/v2@v2.4.4
+  │  ├ CONTAINS PACKAGE go.yaml.in/yaml/v3@v3.0.4
+  │  ├ CONTAINS PACKAGE golang.org/x/crypto@v0.54.0
+  │  ├ CONTAINS PACKAGE golang.org/x/exp@v0.0.0-20260410095643-746e56fc9e2f
+  │  ├ CONTAINS PACKAGE golang.org/x/net@v0.57.0
+  │  ├ CONTAINS PACKAGE golang.org/x/oauth2@v0.36.0
+  │  ├ CONTAINS PACKAGE golang.org/x/sync@v0.22.0
+  │  ├ CONTAINS PACKAGE golang.org/x/sys@v0.47.0
+  │  ├ CONTAINS PACKAGE golang.org/x/term@v0.45.0
+  │  ├ CONTAINS PACKAGE golang.org/x/text@v0.40.0
+  │  ├ CONTAINS PACKAGE golang.org/x/time@v0.15.0
+  │  ├ CONTAINS PACKAGE golang.org/x/tools@v0.47.0
+  │  ├ CONTAINS PACKAGE google.golang.org/genproto/googleapis/api@v0.0.0-20260526163538-3dc84a4a5aaa
+  │  ├ CONTAINS PACKAGE google.golang.org/genproto/googleapis/rpc@v0.0.0-20260526163538-3dc84a4a5aaa
+  │  ├ CONTAINS PACKAGE google.golang.org/grpc@v1.82.1
+  │  ├ CONTAINS PACKAGE google.golang.org/protobuf@v1.36.12-0.20260120151049-f2248ac996af
+  │  ├ CONTAINS PACKAGE gopkg.in/evanphx/json-patch.v4@v4.13.0
+  │  ├ CONTAINS PACKAGE gopkg.in/go-jose/go-jose.v2@v2.6.3
+  │  ├ CONTAINS PACKAGE gopkg.in/natefinch/lumberjack.v2@v2.2.1
+  │  ├ CONTAINS PACKAGE k8s.io/api
+  │  ├ CONTAINS PACKAGE k8s.io/apiextensions-apiserver
+  │  ├ CONTAINS PACKAGE k8s.io/apiserver
+  │  ├ CONTAINS PACKAGE k8s.io/client-go
+  │  ├ CONTAINS PACKAGE k8s.io/cloud-provider
+  │  ├ CONTAINS PACKAGE k8s.io/cluster-bootstrap
+  │  ├ CONTAINS PACKAGE k8s.io/component-helpers
+  │  ├ CONTAINS PACKAGE k8s.io/controller-manager
+  │  ├ CONTAINS PACKAGE k8s.io/cri-api
+  │  ├ CONTAINS PACKAGE k8s.io/cri-client
+  │  ├ CONTAINS PACKAGE k8s.io/csi-translation-lib
+  │  ├ CONTAINS PACKAGE k8s.io/dynamic-resource-allocation
+  │  ├ CONTAINS PACKAGE k8s.io/endpointslice
+  │  ├ CONTAINS PACKAGE k8s.io/externaljwt
+  │  ├ CONTAINS PACKAGE k8s.io/klog/v2@v2.140.0
+  │  ├ CONTAINS PACKAGE k8s.io/kms
+  │  ├ CONTAINS PACKAGE k8s.io/kube-aggregator
+  │  ├ CONTAINS PACKAGE k8s.io/kube-controller-manager
+  │  ├ CONTAINS PACKAGE k8s.io/kube-openapi@v0.0.0-20260721132016-d427ff9ee9ad
+  │  ├ CONTAINS PACKAGE k8s.io/kube-proxy
+  │  ├ CONTAINS PACKAGE k8s.io/kube-scheduler
+  │  ├ CONTAINS PACKAGE k8s.io/kubectl
+  │  ├ CONTAINS PACKAGE k8s.io/kubelet
+  │  ├ CONTAINS PACKAGE k8s.io/kubernetes@v1.37.0
+  │  ├ CONTAINS PACKAGE k8s.io/metrics
+  │  ├ CONTAINS PACKAGE k8s.io/mount-utils
+  │  ├ CONTAINS PACKAGE k8s.io/pod-security-admission
+  │  ├ CONTAINS PACKAGE k8s.io/streaming
+  │  ├ CONTAINS PACKAGE k8s.io/utils@v0.0.0-20260626114624-be93311217bd
+  │  ├ CONTAINS PACKAGE sigs.k8s.io/apiserver-network-proxy/konnectivity-client@v0.36.0
+  │  ├ CONTAINS PACKAGE sigs.k8s.io/randfill@v1.0.0
+  │  ├ CONTAINS PACKAGE sigs.k8s.io/structured-merge-diff/v6@v6.4.2
+  │  ├ CONTAINS PACKAGE sigs.k8s.io/yaml@v1.6.0
+  │  ├ DEPENDS_ON PACKAGE usr/local/bin/kube-log-runner
+  │  ├ DEPENDS_ON PACKAGE debian@12.14
+  │  ├ DEPENDS_ON PACKAGE go-runner
+  │  └ DEPENDS_ON PACKAGE usr/local/bin/kube-controller-manager
+  │ 
+  └ 📄 DESCRIBES 0 Files
+
+

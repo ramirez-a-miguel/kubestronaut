@@ -1,0 +1,98 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "SBOM-SPDX-04e46529-d37b-4de5-8101-67e9f78ff08a",
+  "spdxVersion": "SPDX-2.3",
+  "creationInfo": {
+    "created": "2026-10-26T13:46:16Z",
+    "creators": [
+      "Tool: bom-v0.8.0"
+    ],
+    "licenseListVersion": "3.28"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "urn:uuid:5004adc6-44dc-5fd4-b765-3955e323fd0a",
+  "documentDescribes": [
+    "SPDXRef-File-..-wkl-1-1-svc.yaml",
+    "SPDXRef-File-..-wkl-1-1.yaml",
+    "SPDXRef-File-..-wkl-1-wkl-dev-ns.yaml"
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-File-..-wkl-1-1-svc.yaml",
+      "fileName": "../wkl-1/1-svc.yaml",
+      "copyrightText": "NOASSERTION",
+      "fileTypes": [
+        "TEXT"
+      ],
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "f9f24184b7660bd530cdca7e2e50affc1b75f757"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "c76dfadfbd42a7b59e3ab67b520b123fa1c267143a1f4ba08a4089aed0b6f8c3"
+        },
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "6ce0d6783ee993761f2345d69028bdb51cea540c3181372b98b1bdb9422d1335cf4885ed2d82e0a6dd9a92a8ef1ef838048a6b229f7f1e11735321555a044038"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-..-wkl-1-1.yaml",
+      "fileName": "../wkl-1/1.yaml",
+      "copyrightText": "NOASSERTION",
+      "fileTypes": [
+        "TEXT"
+      ],
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "ce665afab0ed3ddc81d3ee47346c92b0e1c8927b"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "5828a7e13b3b3042124e61a5306e9ce9fcc0adbf622ccc60628b3f8a22c7bc70"
+        },
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "5b67da3149b54fefe2b705f74dec5cdb6da37476d253e5ea261c17feaf7a3b1208d800e66573bf16a1764ad760357e3a0c1f5e68f65afcf37abbb60dedaf424c"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-..-wkl-1-wkl-dev-ns.yaml",
+      "fileName": "../wkl-1/wkl-dev-ns.yaml",
+      "copyrightText": "NOASSERTION",
+      "fileTypes": [
+        "TEXT"
+      ],
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "2299d57df9bf9660e6a1c84b9caf38fe566754a0"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "dcdac2e22a0bda0b49487a29783d7c95d891da099a828e8fe2413214d27d21e6"
+        },
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "d59875b8e555ce1854254c61bcb13317bac3007fab84cfa5dcd79b5f32849276583a3c4c1d3c6851fda5ce99ca2646d5c8cd9f169d4f1969af1dcabde2f87d6b"
+        }
+      ]
+    }
+  ],
+  "packages": [],
+  "relationships": []
+}
